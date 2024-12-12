@@ -13,10 +13,10 @@ class ChirpController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index(): view
+    public function index(): view 
     {
         //
-        return view('chirps.index');
+        return response('Hello, World!');
     }
 
     /**
